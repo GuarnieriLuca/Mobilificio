@@ -239,6 +239,7 @@
                   <li><a href="index.php">home</a></li>
                   <li><a href="allProducts.php">Prodotti</a></li>
                   <li><a href="productDetails.php">Prodotto singolo</a></li>
+                  <li><a href="allPacchetti.php">Pacchetti</a></li>
                 </ul>
                 <!--/.nav -->
               </div>
