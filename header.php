@@ -220,7 +220,7 @@
                   <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand" href="index.html"
-                  >sine<span>mkt</span>.</a
+                  >Mobili<span>ficio</span>.</a
                 >
               </div>
               <!--/.navbar-header-->

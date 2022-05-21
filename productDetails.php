@@ -1,5 +1,5 @@
 <?php
-require("header.php");
+include("header.php");
 ?>
         <!--/.carousel-inner -->
         <div class="carousel-inner" role="listbox">
@@ -79,5 +79,5 @@ require("header.php");
 <!-- /.top-area-->
 <!-- top-area End -->
 <?php
-require('footer.php');
+include('footer.php');
 ?>

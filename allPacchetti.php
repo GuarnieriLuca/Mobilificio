@@ -1,16 +1,14 @@
 <?php
-include("header.php");
+include('header.php');
 ?>
-
-<!--new-arrivals start -->
+    <!--new-arrivals start -->
 <section id="new-arrivals" class="new-arrivals">
     <div class="container">
       <div class="section-header">
-        
       </div>
       <!--/.section-header-->
       <div class="new-arrivals-content">
-      <div class="welcome-hero-txt"><center><h2><b>Prodotti</b></h2></center></div>
+      <div class="welcome-hero-txt"><center><h2><b>Pacchetti</b></h2></center></div>
         <div class="row">
           <div class="col-md-3 col-sm-4">
             <div class="single-new-arrival">
@@ -219,5 +217,5 @@ include("header.php");
   <!--/.new-arrivals-->
   <!--new-arrivals end -->
 <?php
-include("footer.php");
+include('footer.php');
 ?>
