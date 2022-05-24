@@ -1,7 +1,6 @@
 <?php
 
 require_once '../app/config.php';
-
 $route = $_GET['route'];
 if(!$route) $route="home/index";
 $parts = explode('/', $route);
@@ -39,7 +38,6 @@ function view_render_html($view = '')
     if($view) $view_name = $view;
     else $view_name = $controller . '/' . $action;
     $view_file = '../app/views/' . $view_name . '.php';
-
     $template_file = '../app/views/template.php';
     require $template_file;
 }
