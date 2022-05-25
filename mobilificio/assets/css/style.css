@@ -859,7 +859,8 @@ span.feature-review {margin-left: 10px;}
 .hm-foot-email{position: relative;}
 .foot-email-box .form-control {
     background:#fff;
-    display: block;
+    width:270px;
+    height:25px;
     padding:25px 15px;
     outline:0!important;
     box-shadow:0 5px 15px rgba(0,0,0,.2);

@@ -1,5 +1,4 @@
 <?php
-  session_start();
   global $data;
   include("header.php");
 ?>

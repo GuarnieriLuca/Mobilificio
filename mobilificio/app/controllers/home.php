@@ -18,7 +18,11 @@ function controller_home_login()
 function controller_home_loginact()
 {
     global $data;
-    $data['cliente'] = model_get_user($data['username']); 
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+    $data['result'] = model_get_user($username);
+    $cliente=$data['result'];
+    $data['pass']=$password;
     view_render_html();
 }
 
