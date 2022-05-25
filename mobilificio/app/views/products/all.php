@@ -19,7 +19,7 @@
         ?>
         <div class="col-md-3 col-sm-4">
             <div class="single-new-arrival">
-            <a href="productDetails.php?id=<?=$row['idProdotto'];?>"><div class="single-new-arrival-bg">
+            <a href="<?=$data['base_path']?>/products/detail/<?=$row['idProdotto'];?>"><div class="single-new-arrival-bg">
                 <img
                   src="<?=$row['immagine'];?>"
                   alt="new-arrivals images"/>
@@ -37,7 +37,7 @@
                 </div>
               </div>
               </a>
-              <h4><a href="productDetails.php?id=<?=$row['idProdotto'];?>"><?=$row['nome'];?></a></h4>
+              <h4><a href="<?=$data['base_path']?>/products/detail/<?=$row['idProdotto'];?>"><?=$row['nome'];?></a></h4>
               <p class="arrival-product-price"><?=$row['prezzoV'];?>€</p>
             </div>
           </div> 

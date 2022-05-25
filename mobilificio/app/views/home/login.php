@@ -1,32 +1,30 @@
 <?php
-global $data
+global $data;
+include("header_2.php");
 ?>
 
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Login</title>
-  <link rel="stylesheet" href="../assets/css/style_login.css">
 
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<div id="bg"></div>
-
-<form method="post" action="<?=$data['base_path']; ?>/home/loginact">
-  <div class="form-field">
-    <input type="text" placeholder="username" required/>
+<div class="single-welcome-hero" style="margin:0">
+<center><form method="post" action="<?=$data['base_path']; ?>/home/loginact">
+  <div class="hm-foot-email">
+    <div class="foot-email-box">
+      <input type="text" class="form-control" placeholder="Username" required/>
+    </div>
+    <!--/.foot-email-box-->
   </div>
   
-  <div class="form-field">
-    <input type="password" placeholder="password" required/></div>
-  
-  <div class="form-field">
-    <button class="btn" type="submit">Log in</button>
+  <div class="hm-foot-email">
+    <div class="foot-email-box">
+      <input type="password" class="form-control" placeholder="Password" required/>
+    </div>
+    <!--/.foot-email-box-->
   </div>
-</form>
+  
+  <button class="btn-cart welcome-add-cart" type="submit">Login</button>
+</form></center>
 <!-- partial -->
-  
-</body>
-</html>
+</div>
+
+<?php
+include("footer_2.php");
+?>

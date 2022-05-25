@@ -22,4 +22,16 @@ function model_products_all()
   return $rows;
 }
 
+function model_products_detail($id)
+{
+  $conn = db_connect();
+  $idProd = intval($id);
+  $sql = "SELECT * FROM prodotto WHERE idProdotto='$idProd'";
+  $result = $conn->query($sql);
+  $rows = $result->fetch_all(MYSQLI_ASSOC)[0];
+  $result->free();
+  $conn->close();
+  return $rows;
+}
+
 ?>
